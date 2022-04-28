@@ -1,0 +1,7 @@
+Danilo Durante
+4443618-2
+
+Para un proyecto de esas caracteristicas utilizaria una Rama principal, la cual seria la fuente de la verdad. El equipo de desarrollo trabajaria sobre una rama de Feature, donde haria el desarrollo localmente.
+A la hora del pasaje a produccion, se clonaria la rama de PRD, se mergearia los datos de la o las ramas de desarrollo (las features) y se harian las pruebas.
+Si todo esta OK, se mergea esa rama con la rama principal.
+De esta manera se evita tener mas ramas de las necesarias, logrando despliegues rapidos y con la menor cantidad de conflictos.
