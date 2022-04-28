@@ -1,0 +1,7 @@
+Danilo Durante
+4443618-2
+
+Lo primero que hace desarrollo es crearse una rama partiendo de la de produccion, para tener la ultima version del codigo.
+Luego de esto, desarrollo morifica el codigo necesario, realizando los commits que sean requeridos por uno o varios programadores.
+Cuando se tenga un producto entregable (puede ser la funcionalidad completa o parte de la misma, siempre y cuando sea algo funcional), se crea una nueva rama de Testing a partir de la rama de Produccion, se mergean los cambios desarrollados y se hacen las pruebas correspondientes.
+Si todo sale OK, se  procede a hacer el merge de la rama de Testing contra la rama de Producccion.
